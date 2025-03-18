@@ -1,0 +1,33 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f3f3f3;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+}
+.tom-container {
+    position: relative;
+    width: 200px;
+    height: 300px;
+}
+.tom {
+    width: 100%;
+}
+.mouth {
+    position: absolute;
+    bottom: 30px;
+    left: 50%;
+    width: 40px;
+    height: 20px;
+    background-color: black;
+    border-radius: 10px;
+    transform: translateX(-50%);
+    transition: height 0.2s;
+}
+.talking {
+    height: 35px;
+}

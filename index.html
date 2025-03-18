@@ -3,19 +3,16 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Talking Tom Game</title>
+    <title>Match the Colors Game</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <h1>Talking Tom Game</h1>
-    <p>Click on Tom to make him talk!</p>
-    <div class="tom-container" onclick="talk()">
-        <img src="https://i.imgur.com/uOQ3xJx.png" alt="Talking Tom" class="tom">
-        <div class="mouth" id="mouth"></div>
-    </div>
-    <audio id="meowSound" src="https://www.fesliyanstudios.com/play-mp3/4385"></audio>
-    <audio id="talkSound" src="https://www.fesliyanstudios.com/play-mp3/4386"></audio>
-    
+    <h1>Match the Colors Game</h1>
+    <p>Match the color: <span id="targetColor" style="font-weight: bold;"></span></p>
+    <div id="colorOptions"></div>
+    <p class="message" id="message"></p>
+    <button class="button" id="newGameBtn">New Game</button>
+
     <script src="script.js"></script>
 </body>
 </html>

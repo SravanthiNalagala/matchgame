@@ -9,25 +9,30 @@ body {
     height: 100vh;
     margin: 0;
 }
-.tom-container {
-    position: relative;
-    width: 200px;
-    height: 300px;
-}
-.tom {
-    width: 100%;
-}
-.mouth {
-    position: absolute;
-    bottom: 30px;
-    left: 50%;
-    width: 40px;
-    height: 20px;
-    background-color: black;
+.color-box {
+    width: 80px;
+    height: 80px;
+    display: inline-block;
+    margin: 10px;
+    cursor: pointer;
+    border: 2px solid #000;
     border-radius: 10px;
-    transform: translateX(-50%);
-    transition: height 0.2s;
 }
-.talking {
-    height: 35px;
+.message {
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+.button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+.button:hover {
+    background-color: #0056b3;
 }
